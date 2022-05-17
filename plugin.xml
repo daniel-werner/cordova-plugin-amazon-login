@@ -3,7 +3,7 @@
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
         xmlns:android="http://schemas.android.com/apk/res/android"
         id="cordova-plugin-amazon-login"
-        version="2.0.27">
+        version="2.0.28">
     <name>Login with Amazon</name>
     <description>A Cordova Plugin for Login with Amazon.
     Use your Amazon account to authenticate with the app.
@@ -36,6 +36,7 @@
             <activity android:name="com.amazon.identity.auth.device.workflow.WorkflowActivity"
                       android:theme="@android:style/Theme.NoDisplay"
                       android:allowTaskReparenting="true"
+                      android:exported="true"
                       android:launchMode="singleTask">
                 <intent-filter>
                     <action android:name="android.intent.action.VIEW"/>

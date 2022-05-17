@@ -18,6 +18,8 @@ Support for hosted splash screen via the new ALEXA_PRE_AUTH flag is also include
 Extra Android only helper function to check for various Amazon App presence.
 This is to provide support to launch the Alexa App if it is present instead of linking to the Play Store as per Amazon's UX requirements. 
 
+Updated for Android API 31+ to support android:exported="true" in AndroidManifest.xml.
+
 iOS works but is still kind of experimental.
  
 ## Prerequisites
