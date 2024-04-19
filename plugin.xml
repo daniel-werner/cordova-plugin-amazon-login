@@ -63,7 +63,7 @@
                 <param name="ios-package" value="AmazonLoginPlugin" onload="true"/>
             </feature>
             <plugin name="AmazonLoginPlugin" value="AmazonLoginPlugin"/>
-            <access origin='*.amazon.com' allows-arbitrary-loads-in-media='true'
+            <access origin='https://*.amazon.com' allows-arbitrary-loads-in-media='true'
                     allows-arbitrary-loads-in-web-content='true' allows-local-networking='true'/>
         </config-file>
 
